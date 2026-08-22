@@ -1,0 +1,35 @@
+Entry 1:
+	Task: A valid basic HTML document structure
+	Decision: I look on the presentation on how a basic html file should look ( <!DOCTYPE html>, <html lang="en"> </html>)
+Entry 2:
+	- Task: Create the nav bar to navigate the pages
+	- Decision: I used a <nav> element containing all 3 pages (found out you can put the relative path)
+
+Entry 3: -Task: Put a picture
+	 -Decision: I used the <img> tag inside the <body> and put the url to the picture in src
+
+Entry 4: Task: Include one list and also links
+	 Decision: I used <ul> and <li> tags for the list and then <a href=""> for the links
+
+Entry 5: Task: Create About Page
+	 Decision: I have used the same html document structure as in index.html and also used <p> tag to write a short paragraph 
+		   about the coffee shop and <img> tag for the image
+
+Entry 6: Task: create Contact page
+	 Decision: I have used the same html document structure as in index.html and i used <form> tag with <label> and <input> tags
+		   for the form
+
+
+
+AI prompts:
+
+1. In the aiGenerated folder create a website for a small coffee shop with having 3 files : index, about, contact having a valid html document structure and using only html. The website needs to have navigation between all three pages
+
+2. I need the website to have at least one photo, links, a simple contact form and to use appropriate semantic Html elements where possible
+
+Differences:
+	1. Ai added: <meta name="viewport" content="width=device-width, initial-scale=1.0" /> to use the device actual width for display
+	2. Ai used an unordered list for <nav> to explicitly tell that the navigation bar consists of a list of items
+	3. Ai used <Figure> with <img> to add <figcaption>
+	4. Ai used <section> to group related content and <article> for content that is self-dependent
+	5. Ai added <footer> to add contact info in the footer part of the screen
